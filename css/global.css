@@ -1,0 +1,32 @@
+body {
+    font-family:Verdana, sans-serif;
+    --font-blue: #335576;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    padding: 10px 5%;
+}
+
+.navbar__logo {
+    display:inline-block;
+    height:fit-content;
+    color: var(--font-blue)
+}
+
+.navbar__link {
+    display:inline-block;
+    width:fit-content;
+}
+
+.navbar__list {
+    display:inline-block;
+    width:fit-content;
+    margin:0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
