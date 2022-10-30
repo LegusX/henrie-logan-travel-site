@@ -3,24 +3,25 @@ body {
     --primary: #335576;
     --background-orange: #FEFAF5;
     --secondary: #DB7A4E;
+    color:var(--primary);
 }
 
 .navbar {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding: 10px 5% 10px 7%;
+    padding: 10px 7%;
 }
 
 .navbar__logo {
     display:inline-block;
     height:fit-content;
-    color: var(--primary);
     font-size:20px;
 }
 
 .navbar__link {
     display:inline-block;
+    color:black;
     margin: 0 10px;
     font-size:18px;
     border-bottom:4px solid white;
@@ -45,9 +46,9 @@ body {
 
 .footer {
     background-color: var(--background-orange);
-    color: var(--primary);
     display:flex;
     justify-content: center;
+    padding:3rem 0;
 }
 
 .footer__section--flex {

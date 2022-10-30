@@ -1,33 +1,86 @@
 .hero {
-    background-color:var(--background-orange);
-    color:var(--primary);
-    font-size:19px;
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    padding:3% 7%;
+	background-color: var(--background-orange);
+	font-size: 19px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3% 7%;
 }
 
 .hero__left {
-    max-width:45vw;
+	max-width: 45vw;
 }
 
 .hero__text--large {
-    font-size:48px;
-    text-transform: capitalize;
-    margin-bottom:2.5rem;
-    font-weight:700
+	font-size: 48px;
+	text-transform: capitalize;
+	margin-bottom: 2.5rem;
+	font-weight: 700;
 }
 
 .hero__img {
-    width:550px;
+	width: 550px;
+	margin-bottom: 3rem;
 }
 
 .hero__link {
-    background-color:var(--secondary);
-    color:white;
-    padding:10px 50px;
-    border-radius: 50px;
-    margin-top:2rem;
-    display:inline-block;
+	background-color: var(--secondary);
+	color: white;
+	padding: 12px 50px;
+	border-radius: 50px;
+	margin-top: 2rem;
+	display: inline-block;
+}
+
+.recommendations {
+	background-color: white;
+	padding: 3% 7%;
+}
+
+.recommendations__container {
+	display: flex;
+	justify-content: center;
+}
+
+.recommendations__card {
+	aspect-ratio: 2/3;
+	background-color: var(--secondary);
+	background-size: cover;
+	background-clip: content-box;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 20vw;
+	margin: 2.5rem 1.5rem;
+	position: relative;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.recommendations__card--hawaii {
+	background-image: url("/assets/Images/hawaii.jpg");
+	background-repeat: none;
+}
+.recommendations__card--greece {
+	background-image: url("/assets/Images/greece.jpg");
+	background-repeat: none;
+}
+.recommendations__card--iceland {
+	background-image: url("/assets/Images/iceland.jpg");
+	background-repeat: none;
+}
+
+.recommendations__title {
+	font-size: 30px;
+}
+
+.recommendations__text {
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+/* For some reason iceland has a smaller margin in the mockup? so i'm doing this to try and match it */
+.recommendations__text--middle {
+	right: 15px;
 }
