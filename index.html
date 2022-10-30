@@ -2,44 +2,64 @@
     <head>
         <title>Travel Site</title>
         <link href="css/global.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar">
-            <a class="navbar__logo"><h3 class="bold">Travel Site</h3></a>
-            <ul class="navbar__list">
-                <li class="navbar__link navbar__link--active"><a href="#">Home</a></li>
-                <li class="navbar__link"><a href="/pages/hawaii.html">Hawaii</a></li>
-                <li class="navbar__link"><a href="/pages/iceland.html">Iceland</a></li>
-                <li class="navbar__link"><a href="/pages/greece.html">Greece</a></li>
-            </ul>
-        </nav>
-        <footer class="footer">
-            <div class="footer__section">
-                <h1 class="footer__title">Contact</h1>
-                <p class="footer__subtitle">Email</p>
-                <a href="mailto:info@travelsite.com"><p class="footer__text">info@travelsite.com</p></a>
+        <header>
+            <nav class="navbar">
+                <a class="navbar__logo"><h3 class="bold">Travel Site</h3></a>
+                <ul class="navbar__list">
+                    <li class="navbar__link navbar__link--active"><a href="#">Home</a></li>
+                    <li class="navbar__link"><a href="/pages/hawaii.html">Hawaii</a></li>
+                    <li class="navbar__link"><a href="/pages/iceland.html">Iceland</a></li>
+                    <li class="navbar__link"><a href="/pages/greece.html">Greece</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero__left">
+                <h1 class="hero__text--large">Travelling comes with endless discoveries</h1>
+                <p>
+                    Don't let your dreams be just dreams. 
+                    Experience the world by booking a vacation with us now.
+                </p>
+                <a class="hero__link">Get started</a>
             </div>
-            <div class="footer__section footer__section--large footer__section--flex">
-                <div class="footer__subsection">
-                    <h1 class="footer__title">Hours</h1>
-                    <p class="footer__subtitle">Monday - Friday</p>
-                    <p class="footer__text">9:00 AM - 5:00 PM</p>
+            <img src="assets/Images/hero.png" alt="A plane flying around the globe" class="hero__img">
+        </section>
+        <section class="recommendations">
+            random content goes here 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </section>
+        <footer >
+            <nav class="footer">
+                <div class="footer__section">
+                    <h3 class="footer__title">Contact</h3>
+                    <p class="footer__subtitle">Email</p>
+                    <a href="mailto:info@travelsite.com"><p class="footer__text">info@travelsite.com</p></a>
                 </div>
-                <div class="footer__subsection">
-                    <p class="footer__subtitle">Saturday</p>
-                    <p class="footer__text">10:00 AM - 4:00 PM</p>
+                <div class="footer__section footer__section--large footer__section--flex">
+                    <div class="footer__subsection">
+                        <h3 class="footer__title">Hours</h3>
+                        <p class="footer__subtitle">Monday - Friday</p>
+                        <p class="footer__text">9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="footer__subsection">
+                        <p class="footer__subtitle">Saturday</p>
+                        <p class="footer__text">10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div class="footer__subsection">
+                        <p class="footer__subtitle">Sunday</p>
+                        <p class="footer__text">Closed</p>
+                    </div>
                 </div>
-                <div class="footer__subsection">
-                    <p class="footer__subtitle">Sunday</p>
-                    <p class="footer__text">Closed</p>
+                <div class="footer__section footer__section--flex">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="//instagram.com" target="_blank"><img class="footer__social" alt="Instagram logo" src="assets/Icons/icon-instagram.png"></a>
+                    <a href="//facebook.com" target="_blank"><img class="footer__social footer__social--middle" alt="Facebook logo" src="assets/Icons/icon-facebook.png"></a>
+                    <a href="//twitter.com" target="_blank"><img class="footer__social" alt="Twitter logo" src="assets/Icons/icon-twitter.png"></a>
                 </div>
-            </div>
-            <div class="footer__section footer__section--flex">
-                <h1 class="footer__title">Social</h1>
-                <a href="//instagram.com" target="_blank"><img class="footer__social" alt="Instagram logo" src="assets/Icons/icon-instagram.png"></a>
-                <a href="//facebook.com" target="_blank"><img class="footer__social footer__social--middle" alt="Facebook logo" src="assets/Icons/icon-facebook.png"></a>
-                <a href="//twitter.com" target="_blank"><img class="footer__social" alt="Twitter logo" src="assets/Icons/icon-twitter.png"></a>
-            </div>
+            </nav>
         </footer>
     </body>
 </html> 
