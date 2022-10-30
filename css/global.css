@@ -45,15 +45,28 @@ body {
 .footer {
     background-color: var(--background-orange);
     color: var(--primary);
+    display:flex;
+    justify-content: center;
 }
 
-/* .footer__section {
+.footer__section--flex {
     display:flex;
     align-items:flex-end;
     justify-content: space-between;
-} */
+    height:100%;
+    flex-wrap:wrap;
+    flex-basis:content;
+    flex-shrink:0;
+}
 
-.footer__section {}
+.footer__section {
+    margin:0 5%;
+}
+
+.footer__section--large {
+    flex-basis:27vw;
+    
+}
 
 .footer__subtitle {
     color: var(--secondary);
@@ -64,6 +77,16 @@ body {
 
 .footer__title {
     margin-bottom:30px;
+    width:100%;
+}
+
+.footer__text {
+    font-size:18px;
+}
+
+.footer__social {
+    height:30px;
+    margin-top:23px;
 }
 
 .bold {
@@ -77,4 +100,5 @@ h1, h2, h3, p {
 a {
     text-decoration: none;
     color:inherit;
+    font-size:inherit;
 }
