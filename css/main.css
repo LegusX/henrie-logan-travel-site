@@ -47,7 +47,7 @@
 	background-color: var(--secondary);
 	background-size: cover;
 	background-clip: content-box;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	width: 20vw;
 	margin: 2.5rem 1.5rem;
@@ -57,15 +57,14 @@
 
 .recommendations__card--hawaii {
 	background-image: url("/assets/Images/hawaii.jpg");
-	background-repeat: none;
 }
+
 .recommendations__card--greece {
 	background-image: url("/assets/Images/greece.jpg");
-	background-repeat: none;
 }
+
 .recommendations__card--iceland {
 	background-image: url("/assets/Images/iceland.jpg");
-	background-repeat: none;
 }
 
 .recommendations__title {
